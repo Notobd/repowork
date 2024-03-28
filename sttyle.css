@@ -3,6 +3,7 @@ table {
   border-collapse: collapse;
   text-align: center;
   vertical-align: middle;
+  table-layout: fixed;
 }
 caption {
   font-weight: bold;
@@ -43,9 +44,19 @@ tbody th {
   color: #fff;
   text-align: left;
 }
-tbody tr:nth-child(even) th {
-  background-color: #25c;
+tfoot th {
+  background-color: #36c;
+  color: #fff;
+  text-align: left;
 }
-p {
+.highlight {
   color: #25c;
+}
+.special {
+  text-align: right;
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p q {
+  text-decoration: underline;
 }
